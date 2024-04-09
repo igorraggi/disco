@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Inter', sans-serif;
+   }
+
+   div.menu {
+   background-color: #1e1e1e;
+   color: white;
+   text-align: center;
+   border: 1px solid #1e1e1e;
+   height: 40px;
+
+   }
+   .inicio {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 15px;
+   }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    }
+    .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400px;
+    letter-spacing: 3px;
+    margin: 0 5px;
+
+}
+
+
+
+
+.whenaman {
+   letter-spacing: 2px;
+   text-decoration: 0;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   font-size: large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+   margin: auto;
+   border: 2px solid #1e1e1e;
+   border-radius: 5px;
+   transform: scale(1);
+   padding: 4px;
+   width: 1900px;
+   height: 25px;
+   font-size: 25px;
+   text-align: left;
+   margin-left: 0px;
+   margin-right: 100px;
+   padding: 3px;
+}
+
+
+.musicas {
+   display: flex;
+   bottom: 30px;
+   justify-content: space-between;
+   padding: 10px;
+   transform: scale(1);
+   width: 1770px;
+   margin-left: 80px;
+
+
+}
+#mygirl {
+  margin-left: 70px; /* Adiciona margem direita para mover para a esquerda */
+}
+
+
+
+
+
+
+
+
+
+
+.texto {
+  color: brown;
+  font-weight: bold;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+
+}
+
+.LP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: #1e1e1e;
+    text-align: center;
+    background-color: white;
+    padding: 3px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    height: 85px;
+    margin-bottom: 40px;
+}
+
+body {
+  height: 100vh;
+background-image: url(/disco\ deitado.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat ;
+
+}
+
+div.curiosidades {
+   height: 100;
+   border: 2px solid #1e1e1e;
+   margin: 0 800px;
+   border-radius: 7px;
+   padding: 10px;
+   background-color: white;
+   background-position: center;
+   width: 300px;
+   text-align:center;
+   justify-content: center;
+   position: fixed;
+   display: flex;
+   bottom: 400px;
+}
+
+.curiosidades ul {
+  list-style: none;
+  font-size: large;
+  color: #1e1e1e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+div.footer{
+   background-color: #1e1e1e;
+   height: 70px;
+   width: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0;
+   border-radius: 0;
+   text-align: center;
+   background-position: bottom;
+   position: fixed;
+   padding: 3px;
+   bottom: 0;
+   left: 0;
+   color: lightgrey;
+
+}
+
+
+
+/*class = serve para identificar varios elementos
+id = Ele serve para identificar apenas um elemento*/
+
+/* estilo de css em cascata- estiliza de cima para baixo, ou seja, vai ler o css de baixo */
+
+
