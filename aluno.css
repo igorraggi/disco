@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Inter', sans-serif;
+   box-sizing: border-box;
+   }
+
+   div.menu {
+   background-color: #1e1e1e;
+   color: white;
+   text-align: center;
+   border: 1px solid #1e1e1e;
+   height: 40px;
+
+   }
+   .inicio {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 15px;
+   }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    }
+    .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400px;
+    letter-spacing: 3px;
+    margin: 0 5px;
+}
+
+.container-slider {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1rem;
+
+}
+
+.container-images {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 700px;
+}
+
+.slider {
+   position: absolute;
+   width: 100%;
+   border-radius: 10px;
+   opacity: 0;
+   transition: opacity .2s;
+}
+
+.on {
+    opacity: 1;
+}
+
+
+#prev-button,#next-button {
+   width: 30px;
+   height: 30px;
+   border: none;
+   background-color: transparent;
+   cursor: pointer;
+
+}
+
+#prev-button img ,#next-button img {
+  width: 100%;
+  height: 100%;
+
+} 
+
+#prev-button {
+    transform: rotate(180deg);
+}
+
+
+
+.texto {
+  color: red;
+  font-weight: bold;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+
+}
+
+.LP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: #1e1e1e;
+    text-align: left;
+    background-color: white;
+
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid #1e1e1e;
+    border-radius: 7px;
+}
+
+body {
+  height: 100vh;
+background-image: url(/disco\ em\ pe.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat ;
+
+}
+
+div.curiosidades {
+   height: 100;
+   border: 2px solid #1e1e1e;
+   margin: 0 800px;
+   border-radius: 7px;
+   padding: 10px;
+   background-color: white;
+   background-position: center;
+   width: 300px;
+   text-align:center;
+   justify-content: center;
+   position: fixed;
+   display: flex;
+}
+
+.curiosidades ul {
+  list-style: none;
+  font-size: large;
+  color: #1e1e1e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+div.footer{
+   background-color: #1e1e1e;
+   height: 70px;
+   width: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0;
+   border-radius: 0;
+   text-align: center;
+   background-position: bottom;
+   position: fixed;
+   padding: 3px;
+   bottom: 0;
+   left: 0;
+   color: lightgrey;
+
+}
+
+
+
+/*class = serve para identificar varios elementos
+id = Ele serve para identificar apenas um elemento*/
+
+/* estilo de css em cascata- estiliza de cima para baixo, ou seja, vai ler o css de baixo */
+
+
