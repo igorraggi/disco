@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Inter', sans-serif;
+   }
+
+   div.menu {
+   background-color: #1e1e1e;
+   color: white;
+   text-align: center;
+   border: 1px solid #1e1e1e;
+   height: 40px;
+
+   }
+   .inicio {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 15px;
+   }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    }
+    .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400px;
+    letter-spacing: 3px;
+    margin: 0 5px;
+}
+
+.card {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.card1 {
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 50px;
+    width: 300px;
+    height: 670px;
+}
+
+.card1>img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+
+
+
+
+
+.texto {
+  color: brown;
+  font-weight: bold;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+
+}
+
+.LP {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: #1e1e1e;
+    text-align: left;
+    background-color: white;
+
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid #1e1e1e;
+    border-radius: 7px;
+}
+
+body {
+  height: 100vh;
+background-image: url(/disco\ deitado.jpg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat ;
+
+}
+
+div.curiosidades {
+   height: 100;
+   border: 2px solid #1e1e1e;
+   margin: 0 800px;
+   border-radius: 7px;
+   padding: 10px;
+   background-color: white;
+   background-position: center;
+   width: 300px;
+   text-align:center;
+   justify-content: center;
+   position: fixed;
+   display: flex;
+}
+
+.curiosidades ul {
+  list-style: none;
+  font-size: large;
+  color: #1e1e1e;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+div.footer{
+   background-color: #1e1e1e;
+   height: 70px;
+   width: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 0;
+   border-radius: 0;
+   text-align: center;
+   background-position: bottom;
+   position: fixed;
+   padding: 3px;
+   bottom: 0;
+   left: 0;
+   color: lightgrey;
+
+}
+
+
+
+/*class = serve para identificar varios elementos
+id = Ele serve para identificar apenas um elemento*/
+
+/* estilo de css em cascata- estiliza de cima para baixo, ou seja, vai ler o css de baixo */
+
+
