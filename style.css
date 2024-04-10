@@ -3,7 +3,7 @@
 * {
    margin: 0;
    padding: 0;
-   font-family: 'Inter', sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
 
    div.menu {
@@ -11,16 +11,16 @@
    color: white;
    text-align: center;
    border: 1px solid #1e1e1e;
-   height: 40px;
+   height: 45px;
 
    }
-   .inicio {
+   .iniciomenu {
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin: 8px 15px;
    }
-
+   
   .menu ul {
     display: flex;
     list-style: none;
@@ -28,55 +28,124 @@
     }
     .nav-link {
     text-decoration: none;
-    font-size: 1.15rem;
-    color: #fff;
+    font-size: 25px;
+    color: #a9a9a9;
     font-weight: 400px;
     letter-spacing: 3px;
     margin: 0 5px;
+    }
+    .nav-link:hover {
+      color: #fff;
+     }
 
+.nav-link::after {
+  content: "";
+  position: absolute;
+  color: #ff3c78;
+  height: 3px;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+  width: 100%;
+  display: block;
+ }
+ .nav-link:after:hover {
+ width: 100%;
+
+ }
+
+
+
+
+.musica{
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  color: #dddddd;
+  font: montserrat,sans-serif;
 }
 
 
+img {
+   width: 300px;
+   height: 300px;
+}
+
+.descricao {
+  width: 300px;
 
 
-.whenaman {
-   letter-spacing: 2px;
-   text-decoration: 0;
-   text-align: center;
+
+}
+
+h2{
+margin-bottom: 5px;
+}
+
+.duracao {
+  width: 300px;
+  margin-top: 5px;
+
+}
+
+.barra {
+width: 300px;
+height: 6px;
+margin-bottom: 4px;
+border: 1px solid #fff;
+border-radius: 7px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}
+
+progress {
+ height: 6px;
+ width: 0;
+ background-color: #333333;
+}
+
+.ponto {
+ width: 20px;
+ height: 20px;
+ background-color: #eee;
+ border-radius: 50%;
+ align-items: center;
+ margin-left: -10px;
+ }
+
+ .tempo {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+ }
+
+ .player {
+   width: 300px;
    display: flex;
-   justify-content: space-between;
-   font-size: large;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color: black;
-   margin: auto;
-   border: 2px solid #1e1e1e;
-   border-radius: 5px;
-   transform: scale(1);
-   padding: 4px;
-   width: 1900px;
-   height: 25px;
-   font-size: 25px;
-   text-align: left;
-   margin-left: 0px;
-   margin-right: 100px;
-   padding: 3px;
-}
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 15px;
+   cursor: pointer;
+ }
+
+ .botao-play, .botao-pause {
+ font-size: 50px;
 
 
-.musicas {
-   display: flex;
-   bottom: 30px;
-   justify-content: space-between;
-   padding: 10px;
-   transform: scale(1);
-   width: 1770px;
-   margin-left: 80px;
+ }
 
+ .setas {
+  font-size: 40px;
 
-}
-#mygirl {
-  margin-left: 70px; /* Adiciona margem direita para mover para a esquerda */
-}
+ }
+
+ .botao-pause {
+   display: none;
+ }
 
 
 
@@ -168,5 +237,8 @@ div.footer{
 id = Ele serve para identificar apenas um elemento*/
 
 /* estilo de css em cascata- estiliza de cima para baixo, ou seja, vai ler o css de baixo */
+
+
+
 
 
