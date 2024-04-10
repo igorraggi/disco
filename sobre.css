@@ -3,15 +3,15 @@
 * {
    margin: 0;
    padding: 0;
-   font-family: 'Inter', sans-serif;
-   }
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
 
    div.menu {
    background-color: #1e1e1e;
    color: white;
    text-align: center;
    border: 1px solid #1e1e1e;
-   height: 40px;
+   height: 45px;
 
    }
    .inicio {
@@ -27,13 +27,30 @@
     justify-content: center;
     }
     .nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
+      text-decoration: none;
+      font-size: 25px;
+      color: #a9a9a9;
+      font-weight: 400px;
+      letter-spacing: 3px;
+      margin: 0 5px;
+  }
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    color: #ff3c78;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+   }
+   .nav-link:hover {
     color: #fff;
-    font-weight: 400px;
-    letter-spacing: 3px;
-    margin: 0 5px;
-}
+   }
+   .nav-link:after:hover {
+   width: 100%;
+  
+   }
+
 
 .card {
    display: flex;
@@ -143,5 +160,8 @@ div.footer{
 id = Ele serve para identificar apenas um elemento*/
 
 /* estilo de css em cascata- estiliza de cima para baixo, ou seja, vai ler o css de baixo */
+
+
+
 
 
