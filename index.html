@@ -12,9 +12,9 @@
     <header>
      <div class="menu">
        <ul>
-            <li class="inicio"> <a href="index.html" class="nav-link">Inicio </a> </li>
-            <li class="inicio"> <a href="sobre.html" class="nav-link">Sobre </a> </li>
-            <li class="inicio"> <a href="aluno.html" class="nav-link">Aluno </a> </li>
+            <li class="iniciomenu"> <a href="index.html" class="nav-link">Inicio </a> </li>
+            <li class="iniciomenu"> <a href="sobre.html" class="nav-link">Sobre </a> </li>
+            <li class="iniciomenu"> <a href="aluno.html" class="nav-link">Aluno </a> </li>
         </ul>
     </div>
 
@@ -29,34 +29,38 @@
 
         </div>
     </header>
-
-    <div class="whenaman">
-    <p> When a Man Loves a Woman - 1966 <p>
-    <p> My girl - 1965 <p>
-    <p> Bye bye love - 1962 <p>
-    <p id="ilaire"> ilariê - 1989 <p>   
-
+  <br>
+    <div class="musica">
+    <img src="/whenaman.jpg" alt="WhenAMan">
+    <div class="descricao">
+        <h2> When A Man Loves</h2>
+        <i> Percy Sledge </i>
     </div>
+    <div class="duracao">
+        <div class="barra">
+           <progress value="0" max="1"></progress>
+           <div class="ponto">
 
-    <div class="musicas">
-     <audio controls id="When"> <source src="When a Man Loves a Woman (1966) - Percy Sledge (Lp Stereo 1983) Vinyl.mp3" type="audio/mpeg">  </audio>
-     <audio controls id="mygirl"> <source src="My Girl (1965) - The Temptations (Lp Mono 1966) Vinyl.mp3" type="audio/mpeg"> </audio>
-     <audio controls id="byebye"> <source src="Bye Bye Love - Ray Charles (Lp Mono Brazilian 1962) Vinil.mp3" type="audio/mpeg">  </audio>
-     <audio controls id="giravinil"> <source src="ilariê xuxa.mp3" type="audio/mpeg"> </audio>
-     </div>
-
-
-
-
-
-    <div class="curiosidades">
-        <ul>
-            <li> Escolha sua trilha sonora: Ouça, Pause e Reinicie Sem Limites </li>
-            <br>
-            <li> Aproveite a Experiência: Deixe-se Envolver pela Música em Vinil </li>
-        </ul>
+           </div>
+        </div>
+        <div class="tempo">
+           <p class="tempoinicio">0:00</p>
+           <p class="fim">3:40</p>
+        </div>
     </div>
-
+    <div class="player">
+        <i class="fa-solid fa-circle-arrow-left setas anterior"></i>
+        <i class="fa-regular fa-circle-play botao-play"></i>
+        <i class="fa-solid fa-pause botao-pause"></i>
+        <i class="fa-solid fa-circle-arrow-right setas proxima"></i>
+    </div>
+    <audio src="/When a Man Loves a Woman (1966) - Percy Sledge (Lp Stereo 1983) Vinyl.mp3" type="mp3/mpeg"></audio>
+    <audio src="/My Girl (1965) - The Temptations (Lp Mono 1966) Vinyl.mp3"></audio>
+    <audio src="/Bye Bye Love - Ray Charles (Lp Mono Brazilian 1962) Vinil.mp3"></audio>
+    <audio src="/ilariê xuxa.mp3"></audio>
+    <script src="musicas.js"></script>
+    </div>
+   
     <div class="footer">
     <footer class="footer">
 
