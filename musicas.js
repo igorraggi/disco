@@ -1,6 +1,6 @@
 let musicas = [
     {titulo:'When a Man Loves a Woman', artista:'Percy Sledge', src:'When a Man Loves a Woman (1966) - Percy Sledge (Lp Stereo 1983) Vinyl.mp3', img:'whenaman.jpg'},
-    {titulo:'My Girl', artista:'The Temptations', src:'My Girl (1965) - The Temptations (Lp Mono 1966) Vinyl.mp3', img:'mygirl.jpg'},
+    {titulo:'My Girl', artista:'The Temptations', src:'My Girl (1965) - The Temptations (Lp Mono 1966) Vinyl.mp3', img:'Mygirl.jpg'},
     {titulo:'Bye Bye Love', artista:'Ray Charles', src:'Bye Bye Love - Ray Charles (Lp Mono Brazilian 1962) Vinil.mp3', img:'byebye.jpg'},
     {titulo:'Ilarie', artista:'Xuxa', src:'ilariê xuxa.mp3', img:'ilarie.jpg'}
 
